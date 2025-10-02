@@ -1,5 +1,6 @@
-import epd2in13d
 from PIL import Image, ImageDraw, ImageFont
+
+import epd2in13d
 
 epd = epd2in13d.EPD()
 epd.init()
